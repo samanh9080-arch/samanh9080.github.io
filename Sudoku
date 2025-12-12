@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trò Chơi Sudoku</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Trò Chơi Sudoku</h1>
+    <div id="game-container">
+        <div id="board"></div>
+        <div id="controls">
+            <div id="number-container">
+                <div class="number">1</div>
+                <div class="number">2</div>
+                <div class="number">3</div>
+                <div class="number">4</div>
+                <div class="number">5</div>
+                <div class="number">6</div>
+                <div class="number">7</div>
+                <div class="number">8</div>
+                <div class="number">9</div>
+            </div>
+            <button id="new-game">Trò Chơi Mới</button>
+            <button id="clear-cell">Xóa</button>
+        </div>
+        <p id="message"></p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
